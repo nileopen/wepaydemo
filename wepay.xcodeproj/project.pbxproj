@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE9459331DD997C000AE2E0A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE9459321DD997C000AE2E0A /* main.m */; };
+		BE9459361DD997C000AE2E0A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE9459351DD997C000AE2E0A /* AppDelegate.m */; };
+		BE9459391DD997C000AE2E0A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE9459381DD997C000AE2E0A /* ViewController.m */; };
+		BE94593C1DD997C000AE2E0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE94593A1DD997C000AE2E0A /* Main.storyboard */; };
+		BE94593E1DD997C000AE2E0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE94593D1DD997C000AE2E0A /* Assets.xcassets */; };
+		BE9459411DD997C000AE2E0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE94593F1DD997C000AE2E0A /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BE94592E1DD997C000AE2E0A /* wepay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wepay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE9459321DD997C000AE2E0A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BE9459341DD997C000AE2E0A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BE9459351DD997C000AE2E0A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BE9459371DD997C000AE2E0A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BE9459381DD997C000AE2E0A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BE94593B1DD997C000AE2E0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE94593D1DD997C000AE2E0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE9459401DD997C000AE2E0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE9459421DD997C000AE2E0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE94592B1DD997C000AE2E0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE9459251DD997C000AE2E0A = {
+			isa = PBXGroup;
+			children = (
+				BE9459301DD997C000AE2E0A /* wepay */,
+				BE94592F1DD997C000AE2E0A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE94592F1DD997C000AE2E0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE94592E1DD997C000AE2E0A /* wepay.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE9459301DD997C000AE2E0A /* wepay */ = {
+			isa = PBXGroup;
+			children = (
+				BE9459341DD997C000AE2E0A /* AppDelegate.h */,
+				BE9459351DD997C000AE2E0A /* AppDelegate.m */,
+				BE9459371DD997C000AE2E0A /* ViewController.h */,
+				BE9459381DD997C000AE2E0A /* ViewController.m */,
+				BE94593A1DD997C000AE2E0A /* Main.storyboard */,
+				BE94593D1DD997C000AE2E0A /* Assets.xcassets */,
+				BE94593F1DD997C000AE2E0A /* LaunchScreen.storyboard */,
+				BE9459421DD997C000AE2E0A /* Info.plist */,
+				BE9459311DD997C000AE2E0A /* Supporting Files */,
+			);
+			path = wepay;
+			sourceTree = "<group>";
+		};
+		BE9459311DD997C000AE2E0A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE9459321DD997C000AE2E0A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE94592D1DD997C000AE2E0A /* wepay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE9459451DD997C000AE2E0A /* Build configuration list for PBXNativeTarget "wepay" */;
+			buildPhases = (
+				BE94592A1DD997C000AE2E0A /* Sources */,
+				BE94592B1DD997C000AE2E0A /* Frameworks */,
+				BE94592C1DD997C000AE2E0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wepay;
+			productName = wepay;
+			productReference = BE94592E1DD997C000AE2E0A /* wepay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE9459261DD997C000AE2E0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = youja;
+				TargetAttributes = {
+					BE94592D1DD997C000AE2E0A = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = BE9459291DD997C000AE2E0A /* Build configuration list for PBXProject "wepay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE9459251DD997C000AE2E0A;
+			productRefGroup = BE94592F1DD997C000AE2E0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE94592D1DD997C000AE2E0A /* wepay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE94592C1DD997C000AE2E0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE9459411DD997C000AE2E0A /* LaunchScreen.storyboard in Resources */,
+				BE94593E1DD997C000AE2E0A /* Assets.xcassets in Resources */,
+				BE94593C1DD997C000AE2E0A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE94592A1DD997C000AE2E0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE9459391DD997C000AE2E0A /* ViewController.m in Sources */,
+				BE9459361DD997C000AE2E0A /* AppDelegate.m in Sources */,
+				BE9459331DD997C000AE2E0A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BE94593A1DD997C000AE2E0A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE94593B1DD997C000AE2E0A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE94593F1DD997C000AE2E0A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE9459401DD997C000AE2E0A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE9459431DD997C000AE2E0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BE9459441DD997C000AE2E0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE9459461DD997C000AE2E0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = wepay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uplus.international.wepay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BE9459471DD997C000AE2E0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = wepay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uplus.international.wepay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE9459291DD997C000AE2E0A /* Build configuration list for PBXProject "wepay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE9459431DD997C000AE2E0A /* Debug */,
+				BE9459441DD997C000AE2E0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE9459451DD997C000AE2E0A /* Build configuration list for PBXNativeTarget "wepay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE9459461DD997C000AE2E0A /* Debug */,
+				BE9459471DD997C000AE2E0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE9459261DD997C000AE2E0A /* Project object */;
+}
